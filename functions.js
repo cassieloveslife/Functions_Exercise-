@@ -1,3 +1,8 @@
+/* 
+xin Luo
+June 10, 2020
+*/
+
 // This function returns a random number between (and including both) minimum and maximum
 function getRandomInteger (minimum, maximum) {
   minimum = Math.ceil(minimum) // minimum is inclusive
@@ -6,19 +11,22 @@ function getRandomInteger (minimum, maximum) {
 }
 
 // Povided Arrays
-const nouns = ['dragons', 'toasters']
+const nouns = ['Devon', 'boyfriend','cutie','ten','love','card','beach','kiss','laugh','hug','rendezvous']
 
-const verbs = ['walked', 'ran']
+const verbs = ['walked', 'kiss','propose','chase','hug','shine','jog','chat','hum','sing']
 
-const adverbs = ['menacingly', 'intentionally']
+const adverbs = ['menacingly', 'intentionally','magically','surprisingly','seriously','carefully','amazingly','slowly','slightly','happily']
 
-const adjectives = ['wild', 'slippery']
+const adjectives = ['wild', 'slippery','shining','lovely','warm','sweet','cheerful','silently','gradually']
 
 const proNouns = ['they', 'we', 'you', 'he', 'she', 'I', 'it']
 
-const openings = ['Once upon a time', 'I watched']
+const openings = ['A year from now', 'I dance to hippop','in the future','I love you','baby you are sweet','we are going to church','get married on mars','universe wedding','invisible dimond ring','Angels are singing','Demons are cryind and bleeding','the cutest couple ever',
+'my cat dresses tuxedo to be my bridesmaid','I cannot let you burn me up, nor can I resist you.','He stepped down, trying not to look long at her, as if she were the sun, yet he saw her, like the sun, even without looking.',
+'You should be kissed and often, and by someone who knows how.','Then he kissed her','At his lips’ touch she blossomed for him like a flower and the incarnation was complete','We are asleep until we fall in love','He sweeps her hair back from her ears; he swings her above his head. He says she is his émerveillement. He says he will never leave her, not in a million years']
 
-const closings = ['with extra cheese', 'the end']
+
+const closings = ['with extra cheese', 'the end','finally', 'in a word', 'in brief', 'briefly', 'in conclusion', 'on the whole', 'thus', 'to conclude', 'to summarize', 'in sum', 'to sum up', 'in summary','finito','period']
 
 // Instructions:
 
